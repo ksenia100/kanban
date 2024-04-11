@@ -1,0 +1,66 @@
+.todolist {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+.todolist__column {
+    flex: 1;
+    margin-bottom: 30px;
+}
+
+.todolist__title {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.todolist__todos {
+    background-color: #4096f3; 
+    padding: 30px 20px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+.todoitem {
+    background-color: #fff; 
+    width: 100%;
+    max-width: 300px;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.todoitem div:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+.todoitem__flex {
+    display: flex;
+    color: #333;
+    gap: 10px;
+    align-items: center;
+}
+
+.repo__link {
+    font-size: 18px;
+    color: #007BFF; 
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+.repo__link:hover {
+    text-decoration: underline;
+}
+
+.repo {
+    margin-bottom: 30px;
+}
+
+.error {
+    color: red;
+}
